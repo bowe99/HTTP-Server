@@ -9,10 +9,10 @@ import os
 import socket
 
 
-SERVER_ADDRESS = 'localhost', 1028
+SERVER_ADDRESS = 'localhost', 1029
 REQUEST = b"""\
 GET /hello HTTP/1.1
-Host: localhost:1028
+Host: localhost:1029
 
 """
 
